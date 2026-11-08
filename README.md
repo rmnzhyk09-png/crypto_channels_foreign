@@ -83,7 +83,7 @@ pip install -r parsing/requirements.txt
 # Edge с отладочным портом и вашим профилем TGStat
 "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" \
   --remote-debugging-port=9222 \
-  --user-data-dir="C:\Users\Hp\AppData\Local\Temp\opencode\edge_profile"
+  --user-data-dir="%USERPROFILE%\AppData\Local\Temp\opencode\edge_profile"
 
 python parsing/tgstat_parser.py \
   --query crypto --query bitcoin --query ethereum --query defi \
