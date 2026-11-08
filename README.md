@@ -12,7 +12,7 @@
 out/
   crypto_channels_foreign.xlsx      # итоговая таблица, 32 канала
   result_tg_links.txt               # 32 ссылки из итоговой таблицы
-  result_tg_links_unverified.txt    # 90 сырых кандидатов до проверки
+  result_tg_links_unverified.txt    # 88 сырых кандидатов до проверки
 parsing/
   tgstat_parser.py                  # реконструкция парсера TGStat
   queries.txt                       # примеры поисковых запросов
